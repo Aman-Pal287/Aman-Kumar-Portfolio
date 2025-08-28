@@ -1,7 +1,10 @@
 const HomeBottomText = () => {
   return (
-    <div>HomeBottomText</div>
-  )
-}
+    <div>
+      <Link>Projects</Link>
+      <Link>Agence</Link>
+    </div>
+  );
+};
 
-export default HomeBottomText
+export default HomeBottomText;
