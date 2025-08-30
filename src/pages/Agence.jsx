@@ -27,11 +27,16 @@ const Agence = () => {
     gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
-        markers: true,
         start: "top 26.7%",
         end: "top -140%",
-        scrub: true,
         pin: true,
+        pinSpacing: true,
+        pinReparent: true,
+        pinType: "transform",
+        scrub: 1, // smooth scrubbing with 1s easing
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+
         onUpdate: (elem) => {
           let imageIndex;
           if (elem.progress < 1) {
@@ -48,7 +53,7 @@ const Agence = () => {
 
   return (
     <main>
-      <section className="agence-section-1">
+      <section className="agence-section-1 relative py-1">
         <div
           ref={imageDivRef}
           className="absolute overflow-hidden rounded-xl top-50 left-[30vw] h-[20vw] w-[15vw] bg-red-900 "

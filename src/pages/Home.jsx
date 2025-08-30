@@ -10,7 +10,7 @@ const Home = () => {
         <Video />
       </section>
 
-      <section className="home-section-2 ">
+      <section className="home-section-2 pt-5 pb-5">
         <HomeHeroText />
         <HomeBottomText />
       </section>
