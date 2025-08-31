@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className=" text-white">
       <Navbar />
-      {/* <FullScreenNav /> */}
+      <FullScreenNav />
       <Mainroutes />
     </div>
   );

@@ -48,7 +48,7 @@ const Stairs = (props) => {
   return (
     <div>
       <section
-        className="page-transition-animation h-screen w-full fixed top-0 z-[10]"
+        className="page-transition-animation h-screen w-full fixed top-0 z-10"
         ref={stairParentRef}
       >
         <div className="flex h-full w-full">
