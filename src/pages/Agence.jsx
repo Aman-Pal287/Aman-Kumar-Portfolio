@@ -56,7 +56,7 @@ const Agence = () => {
       <section className="agence-section-1 relative py-1">
         <div
           ref={imageDivRef}
-          className="absolute overflow-hidden rounded-xl top-50 left-[30vw] h-[20vw] w-[15vw] bg-red-900 "
+          className="absolute overflow-hidden rounded-xl top-30 left-[30vw] h-[20vw] w-[15vw] bg-red-900 "
         >
           <img
             ref={imageRef}
