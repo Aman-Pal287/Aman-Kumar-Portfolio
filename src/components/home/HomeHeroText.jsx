@@ -2,7 +2,7 @@ import "./HomeHeroText.scss";
 import Video from "./Video";
 const HomeHeroText = () => {
   return (
-    <main className="homeHeroText-main ">
+    <main className="homeHeroText-main text-white">
       <div className="text-[9vw] flex` items-center justify-center uppercase leading-[17vh]">
         L'étincelle
       </div>

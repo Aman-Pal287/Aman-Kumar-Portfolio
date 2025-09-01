@@ -52,7 +52,7 @@ const Agence = () => {
   });
 
   return (
-    <main>
+    <main className="w-full h-full bg-[#111] text-white">
       <section className="agence-section-1 relative py-1">
         <div
           ref={imageDivRef}

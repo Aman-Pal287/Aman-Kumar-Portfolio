@@ -4,7 +4,7 @@ import Mainroutes from "./routes/Mainroutes";
 
 const App = () => {
   return (
-    <div className=" text-white">
+    <div className="">
       <Navbar />
       <FullScreenNav />
       <Mainroutes />
